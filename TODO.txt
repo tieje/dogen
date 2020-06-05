@@ -3,12 +3,24 @@ TODO
 
 Marketing
 
+- friends, family, and acquaintances
+- local schools and universities
+- word of mouth
+- social media
+    - facebook
+    - twitter
+    - linkedin
+- logo
+- name of location
+
 
 Finances
 - secure funding by presenting your idea to investors
     - powerpoint presentation
-        - general idea: a non-alcoholic social lounge for adults 18 and older with a mixed theme of soft home life and edgey night life. Spikes with rounded corners. Smiles with devious eyes.
-        - SWAT
+        # general idea: a non-alcoholic social lounge for adults 18 and older with a mixed theme of soft home life and edgey night life. Spikes with rounded corners. Smiles with devious eyes.
+        - one page Lean startup analysis paper
+            # 6/5/2020
+            
         - Trends
             - rise in gaming
             - rise in loneliness among American adults
@@ -26,9 +38,46 @@ Finances
         - long-form pitch
     - projected finances
         - create an expense report on overhead cost
-        - create an expense report for profit over time
+        - create an expense report for gross income and profit over time
         - have a specific square footage in mind
         - estimate profit over time and return on investment
             - ROI
 
 Physical Space and Objects
+    - kitchen
+        - 3 refrigerators
+            - storage
+            - meats
+            - vegetables
+        - pantry for bread, pita, rice, and canned foods
+        - spices and baking needs
+        - cookware
+            - pots and pans
+            - mixers and emulsifiers
+            - bakeware and baking sheets
+        - utensil
+        - plates and paper plates
+    - general eating area
+    - U-desk for greeting and one-on-one conversation
+    - 12 pc gaming area
+        - RGB
+        - optional amenities like headphones
+    - dance area
+        - noise-canceling walls
+    - multiplayer gaming area
+        - noise canceling walls
+    - backseat gaming area
+        - noise canceling walls
+    - board game area
+        - noise=canceling walls?
+    - five vanity areas
+        - two of the five vanities will have a salon sink for hair dying and washing.
+        - limited makeup supply
+            - makeup that is easily washed away by solvent
+            - brushes that easy to clean and sanitize
+    - bathrooms
+        - mens
+        - put a couch and candles in the women's bathroom
+    - what the business will actually look like from an artist's perspective
+    - Theme: loud but quiet
+        - colors
