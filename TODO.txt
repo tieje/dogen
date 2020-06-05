@@ -1,10 +1,34 @@
 TODO
 # Include date when major things were accomplished
 
-Physical Space
-    - Decorations and Themes
-    
-Overhead costs
+Marketing
 
-Expected Annual Income
 
+Finances
+- secure funding by presenting your idea to investors
+    - powerpoint presentation
+        - general idea: a non-alcoholic social lounge for adults 18 and older with a mixed theme of soft home life and edgey night life. Spikes with rounded corners. Smiles with devious eyes.
+        - SWAT
+        - Trends
+            - rise in gaming
+            - rise in loneliness among American adults
+            - rise in female graduates
+            - the inclination of young people towards being more appropriate to each other
+            - fall of sex with young people
+            - fall of bars in general
+        - business structure
+            - co-op so employees are invested in its success
+        - amenities offered
+            - innovations and potential monopolizations
+            - laws regulating food and kitchen usage
+    - work on your pitch
+        - elevator pitch
+        - long-form pitch
+    - projected finances
+        - create an expense report on overhead cost
+        - create an expense report for profit over time
+        - have a specific square footage in mind
+        - estimate profit over time and return on investment
+            - ROI
+
+Physical Space and Objects
