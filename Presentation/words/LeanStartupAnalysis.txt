@@ -1,2 +1,59 @@
 Lean-Startup analysis
 
+Lean-Startup Steps
+Step 1: Vision, Strategy, and Product
+
+Vision
+    - End the loneliness epidemic affecting American adults by creating a way for people to make connections in real life.
+        Strategies
+            - create a software app
+                Product
+                    - idex.world
+                        # a website that allows people to grab their favorite fictional characters and to find people who identify with those characters
+                    - Side Quests
+                        # a smartphone app that allows people to anonymously market their wishlists and for anonymous community members to fulfill
+                            # the anonyminity provides social protection to both parties, simulating surprise encounters in real life
+            - create a physical location that appeals to both genders
+                Product
+                    - # Undecided name, code-name project "dogen"
+                        # entry fee, space offering guided/unguided cooking and with friends/new people, pc gaming, board games, makeup vanity section, dance section, and console gaming both party games and backseat narrative-driven games
+                        # as of 6/6/2020 this is what I'm trying to do
+                        # the motivation is that there is huge untapped market and current bars/lounges/social events don't fulfill the social needs and wants of our generation
+                            # we prefer intimate shared activities to better understand our potential partners and friends because we have learned to be careful about who we associate ourselves with. We don't care about getting drunk. We care about surviving together.
+
+Step 2: Define who is an entrepreneur
+
+For project dogen, there needs to be 3-4 people: maintenance, chef/sociologist/psychologist, greeting staff, and security
+    # maintenance
+        - physical labor
+        - good at cleaning and handy at fixing things
+    # greeting staff can double as security to make people feel safe
+        - keep track of people within the building
+        - notices trends in people
+        - has a general feel for who is using what and how they are using things
+        - fairly good at fighting or de-escalating conflict
+    # the chef/sociologis/psychologist will be the most experienced person
+        - has the hardest job of getting people together to work on a shared activity
+        - initially there will be guided activities and lessons but later on there will be an open kitchen
+        - can have a teacher role as well as a supervisory role
+        - throws people out of the kitchen with a Gordon Ramsay impression so people know that they are half-serious and half-joking
+            - this allows the person to leave on good terms, with incentive to have good behavior next time
+    - everyone can provide innovations about how the place is run and the best way to run it
+    - it's likely that I would make this a co-op where everyone is invested on the success of the operation
+
+Step 3: Learning
+
+Because there are six separate areas:
+    - we can repurpose areas to expand amenities to popular activities
+    - we can provide data to local businesses about local activities
+    - we are replicable but every area is going to have activities that will be more popular. It's a flexible design that can be changed depending on the area.
+    - People go to places that specialize in activities, but with every specialization, there are niches that are unfulfilled:
+        - in a dance club, breakdance is often a shunned activity because it's not a beginner-friendly dance activity. A dance club could not fulfill the dancing wants of it's communities so it fulfills the needs the greatest common denominator
+        - there are probably social cooking events but what if you don't really care about cooking, or only want to cook when you see a potential mate.
+        - Gaming is often shunned as an at-home activity, however it can be a social experience for those who care about it.
+        - there are makeup parlors that can provide doing makeup for you but often doing makeup is seen as an at-home kind of thing to do with family and intimate friends.
+        - the idea is that intimate connections through shared activity can be formed outside of home and work. Consumption of goods and partying are shallow methods of forming connections
+    - The layout is adaptive. This is kind of like a community center, but the central focus is young adults who want to meet new people outside of normal work.
+
+Step 4: Experiment
+    - 
