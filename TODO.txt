@@ -18,9 +18,11 @@ Finances
 - secure funding by presenting your idea to investors
     - powerpoint presentation
         # general idea: a non-alcoholic social lounge for adults 18 and older with a mixed theme of soft home life and edgey night life. Spikes with rounded corners. Smiles with devious eyes.
-        - fill out lean-startup canvas
+        + fill out lean-startup canvas
             # assigned on 6/7/2020
+            # completed on 6/8/2020
         - Trends
+            # assigned on 6/8/2020
             - rise in gaming
             - rise in loneliness among American adults
             - rise in female graduates
