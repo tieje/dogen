@@ -1,4 +1,7 @@
 TODO
+
+4MRD0378A0D84
+
 # Include date when major things were accomplished
 
 Marketing
@@ -21,7 +24,7 @@ Finances
         + fill out lean-startup canvas
             # assigned on 6/7/2020
             # completed draft 1 on 6/8/2020
-            - create draft 2
+            + create draft 2
                 # assigned on 6/7/2020
                 
         - Trends
@@ -74,7 +77,7 @@ Physical Space and Objects
         - noise canceling walls
     - board game area
         - noise=canceling walls?
-    - five vanity areas
+    x five vanity areas
         - two of the five vanities will have a salon sink for hair dying and washing.
         - limited makeup supply
             - makeup that is easily washed away by solvent
