@@ -20,21 +20,53 @@ Marketing
 Finances
 - secure funding by presenting your idea to investors
     - powerpoint presentation
-        # general idea: a non-alcoholic social lounge for adults 18 and older with a mixed theme of soft home life and edgey night life. Spikes with rounded corners. Smiles with devious eyes.
+        # general idea: a non-alcoholic social hub for adults 18 years and older
+            amenities include:
+                - dance studio
+                - guided and unguided cooking activities
+                - an eating area
+
         + fill out lean-startup canvas
             # assigned on 6/7/2020
             # completed draft 1 on 6/8/2020
             + create draft 2
                 # assigned on 6/7/2020
-                
+                # completed 6/16/2020
         - Trends
             # assigned on 6/8/2020
-            - rise in gaming
-            - rise in loneliness among American adults
-            - rise in female graduates
-            - the inclination of young people towards being more appropriate to each other
-            - fall of sex with young people
-            - fall of bars in general
+            - loneliness epidemic in America
+                - the societal loss of monoculture
+                    - there is not a single thing shared-activity besides protests that we can all get behind.
+                - the community void created by religion
+                    - filled with Hedonism in the form of special-interest activities
+                        - special-interest activities existed before Hedonism therefore it naturally took over the void
+                            - the next step is to generalize and make activities universally interesting to everyone
+                        - problem with special interest activities is that you never really get to know your local community.
+                        - people can sense how genuinely interested you are in an activity, or did you take up this activity just to meet people
+                            - if you're not interested enough in the activity and you clearly just did this to meet people it makes you look desperate
+                                - there is social stigma and vulnerability attached to taking up a new activity just to meet people and not because you're truly invested in the activity
+                                    - in shared-activities with universal appeal, like theme parks and public spaces, there is social stigma
+                - rise in gaming
+                - rise in loneliness among American adults
+                - fall of sex in young people
+            - why this is good timing
+                - fall of bars in general
+                - many bars and restaurants will close by the end of the pandemic
+                - catastrophe makes people open to new ideas
+                - rise in female graduates and breadwinners
+                - the inclination of young people towards being more appropriate to each other
+        - Practical challenges
+            - Ensuring that friend groups can safely break up to meet new people and regroup later
+                - Random invite nights and randomized groups
+            - How do you get people who usually stay at home alone or with their parents to suddenly come out to this place?
+                - This is the wrong question because these people are generally disinterested in the outside world and they already block themselves off from new places unless there is an incredible draw for them to come. These people are known as mainstream and late-adopters. PC gaming nights, backseat gaming nights, gaming tournies could really bring these type of people over the edge towards our business.
+            - So how do we get innovators and early adopters?
+                - the innovators and early adopters are typically going to be people who like to go outside and try new things or hear about cool places. This is where we invite niche dance groups to practice at our dance studio for free or reduced entry fees, with the condition that they designate one of their members to teach anyone who wants to learn and join or try it out. A store window could draw people into the space. If dance groups or dance teachers can pull in enough people to teach, then we could actually start paying these dance instructors
+                - simultaneously solves the problem of getting people through the door.
+                - can retain night life by turning a dance studio into a night-time dance club
+            - Marketing Guided cooking classes
+                - Typical marketing channels for singles cooking nights and couples cooking nights
+                - it as one thing, but then offer a range of activities when the consumer gets there so that they might be interested in coming back to try out new activities.
         - business structure
             - co-op so employees are invested in its success
         - amenities offered
