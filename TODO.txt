@@ -23,7 +23,7 @@ Finances
         # general idea: a non-alcoholic social hub for adults 18 years and older
             amenities include:
                 - dance studio
-                - guided and unguided cooking activities
+                - guided and unguided cooking activities and an open kitchen
                 - an eating area
 
         + fill out lean-startup canvas
