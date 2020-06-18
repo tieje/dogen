@@ -34,26 +34,41 @@ Finances
                 # completed 6/16/2020
         - Trends
             # assigned on 6/8/2020
-            - loneliness epidemic in America
-                - the societal loss of monoculture
-                    - there is not a single thing shared-activity besides protests that we can all get behind.
-                - the community void created by religion
-                    - filled with Hedonism in the form of special-interest activities
-                        - special-interest activities existed before Hedonism therefore it naturally took over the void
-                            - the next step is to generalize and make activities universally interesting to everyone
-                        - problem with special interest activities is that you never really get to know your local community.
-                        - people can sense how genuinely interested you are in an activity, or did you take up this activity just to meet people
-                            - if you're not interested enough in the activity and you clearly just did this to meet people it makes you look desperate
-                                - there is social stigma and vulnerability attached to taking up a new activity just to meet people and not because you're truly invested in the activity
-                                    - in shared-activities with universal appeal, like theme parks and public spaces, there is social stigma
-                - rise in gaming
-                - rise in loneliness among American adults
-                - fall of sex in young people
+            + loneliness epidemic in America
+                + the societal loss of monoculture
+                    + there is not a single thing shared-activity besides protests that we can all get behind.
+                + the community void created by religion
+                    + filled with Hedonism in the form of special-interest activities
+                        + special-interest activities existed before Hedonism therefore it naturally took over the void
+                           + the next step is to generalize and make activities universally interesting to everyone
+                        + problem with special interest activities is that you never really get to know your local community.
+                        + people can sense how genuinely interested you are in an activity, or did you take up this activity just to meet people
+                            + if you're not interested enough in the activity and you clearly just did this to meet people it makes you look desperate
+                                + there is social stigma and vulnerability attached to taking up a new activity just to meet people and not because you're truly invested in the activity
+                                    + in shared-activities with universal appeal, like theme parks and public spaces, there is social stigma
+                + rise in gaming
+                + rise in loneliness among American adults
+                + fall of sex in young people
             - why this is good timing
                 - fall of bars in general
+                    - lack of personal connections
+                        - studies show that relationships that start from bars rarely last
+                    - health issues
+                        - alcoholism
+                    - safety issues
+                        - bars are not considered to be a safe space for women usually
+                        - avoiding drunk people is always a concern
+                    - people are too tired
+                    - people are ordering food for delivery more but people are still cooking with the rise of food subscription boxes with preset recipes
+                        - look into cooking class attendance
+                        - cooking skills have not been transferred
                 - many bars and restaurants will close by the end of the pandemic
+                    - cite a study 
                 - catastrophe makes people open to new ideas
+                    - cite a study
                 - rise in female graduates and breadwinners
+                    - majority of college graduates are women
+                    - appealing to women is going to be a huge industry
                 - the inclination of young people towards being more appropriate to each other
         - Practical challenges
             - Ensuring that friend groups can safely break up to meet new people and regroup later
@@ -110,10 +125,10 @@ Physical Space and Objects
     - board game area
         - noise=canceling walls?
     x five vanity areas
-        - two of the five vanities will have a salon sink for hair dying and washing.
-        - limited makeup supply
-            - makeup that is easily washed away by solvent
-            - brushes that easy to clean and sanitize
+        x two of the five vanities will have a salon sink for hair dying and washing.
+        x limited makeup supply
+            x makeup that is easily washed away by solvent
+            x brushes that easy to clean and sanitize
     - bathrooms
         - mens
         - put a couch and candles in the women's bathroom
