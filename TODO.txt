@@ -25,6 +25,7 @@ Finances
                 - dance studio
                 - guided and unguided cooking activities and an open kitchen
                 - an eating area
+                - a PC gaming area
 
         + fill out lean-startup canvas
             # assigned on 6/7/2020
@@ -32,7 +33,7 @@ Finances
             + create draft 2
                 # assigned on 6/7/2020
                 # completed 6/16/2020
-        - Trends
+        + Trends
             # assigned on 6/8/2020
             + loneliness epidemic in America
                 + the societal loss of monoculture
@@ -49,30 +50,31 @@ Finances
                 + rise in gaming
                 + rise in loneliness among American adults
                 + fall of sex in young people
-            - why this is good timing
-                - fall of bars in general
-                    - lack of personal connections
-                        - studies show that relationships that start from bars rarely last
-                    - health issues
-                        - alcoholism
-                    - safety issues
-                        - bars are not considered to be a safe space for women usually
-                        - avoiding drunk people is always a concern
-                    - people are too tired
-                    - people are ordering food for delivery more but people are still cooking with the rise of food subscription boxes with preset recipes
-                        - look into cooking class attendance
-                        - cooking skills have not been transferred
-                - many bars and restaurants will close by the end of the pandemic
-                    - cite a study 
-                - catastrophe makes people open to new ideas
-                    - cite a study
-                - rise in female graduates and breadwinners
-                    - majority of college graduates are women
-                    - appealing to women is going to be a huge industry
-                - the inclination of young people towards being more appropriate to each other
+            + why this is good timing
+                + fall of bars in general
+                    + lack of personal connections
+                        + studies show that relationships that start from bars rarely last
+                    + health issues
+                        + alcoholism
+                    + safety issues
+                        + bars are not considered to be a safe space for women usually
+                        + avoiding drunk people is always a concern
+                    + people are too tired
+                    + people are ordering food for delivery more but people are still cooking with the rise of food subscription boxes with preset recipes
+                        + look into cooking class attendance
+                        + cooking skills have not been transferred
+                + many bars and restaurants will close by the end of the pandemic
+                    + cite a study 
+                + catastrophe makes people open to new ideas
+                    + cite a study
+                + rise in female graduates and breadwinners
+                    + majority of college graduates are women
+                    + appealing to women is going to be a huge industry
+                + the inclination of young people towards being more appropriate to each other
         - Practical challenges
-            - Ensuring that friend groups can safely break up to meet new people and regroup later
+            + Ensuring that friend groups can safely break up to meet new people and regroup later
                 - Random invite nights and randomized groups
+                - Clear timing expectations where guided activities are synced up to end at the same time
             - How do you get people who usually stay at home alone or with their parents to suddenly come out to this place?
                 - This is the wrong question because these people are generally disinterested in the outside world and they already block themselves off from new places unless there is an incredible draw for them to come. These people are known as mainstream and late-adopters. PC gaming nights, backseat gaming nights, gaming tournies could really bring these type of people over the edge towards our business.
             - So how do we get innovators and early adopters?
@@ -83,7 +85,9 @@ Finances
                 - Typical marketing channels for singles cooking nights and couples cooking nights
                 - it as one thing, but then offer a range of activities when the consumer gets there so that they might be interested in coming back to try out new activities.
         - business structure
-            - co-op so employees are invested in its success
+            - options
+                - co-op so employees are invested in its success
+                - could be a non-profit because it's tackling a social issue through a public health lens
         - amenities offered
             - innovations and potential monopolizations
             - laws regulating food and kitchen usage
