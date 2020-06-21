@@ -28,7 +28,8 @@ Trends and Demographics
             1. Electronic solo entertainment: video games, social media, streaming services, internet usage, and food app-delivery are on the rise.
                 a. Now that last one doesn't make sense. Debt is among the highest with young people, so how can we afford take-out food all the time? Part of it is that these kids don't know how to cook. The other part is that they are so stressed out that they don't want to cook or learn how to cook.
             2. Dating apps: one-third of all marriages start from meeting someone online.
-            3. Special interest activities: cycling clubs, running, exercise clubs, conventions, and events related to this special interest. The way to meet people regularly in a city is to commit to a special interest and join a special interest community. There is usually a limited amount of people in a special interest community and if you're doing any activity that lacks gender diversity, it becomes increasingly difficult to find a partner. And if you do an activity just to meet new people without really caring about the activity, you might come off as dishonest; because you're not being genuine; and it's easy for you to have a social stigma of loneliness attached to you. These two emotional hurdles can easily bar people from entering gender-dominated activities.
+            3. Special interest activities: cycling clubs, running, exercise clubs, conventions, and events related to this special interest.
+                The way to meet people regularly in a city is to commit to a special interest and join a special interest community. There is usually a limited amount of people in a special interest community and if you're doing any activity that lacks gender diversity, it becomes increasingly difficult to find a partner. And if you do an activity just to meet new people without really caring about the activity, you might come off as dishonest; because you're not being genuine; and it's easy for you to have a social stigma of loneliness attached to you. These two emotional hurdles can easily bar people from entering gender-dominated activities.
 Practical Challenges
     Aside from normal marketing through social media channels and physical flyers, how do you get people through the door?
         From the bell-shaped curve, we need to appeal to innovators and early adopters: in this case, slightly extraverted people who want to try new things.
@@ -49,8 +50,16 @@ Practical Challenges
                     - Gaming offers a space for people to retreat into until they're comfortable with talking to other people.
                 b. A member might want to get work doneon the PC while waiting for friends or while looking for someone interesting to meet.
                     - This gives an excuse to come here after work instead of going straight home.
-                c. Ensures future-proofing as games and technology improves over time.
-        
+                c. Ensures future-proofing as games and technology improves over time; specifically virtual and augmented reality
+    How do you maintain longterm relevancy?
+        1. Sections can be expanded by converting sections from one to another.
+            a. This flexibility gives us an unfair advantage.
+        2. Augmented and virtual reality will play an important part in the future. The dance studio could be converted into a virtual reality
+    How are you going to handle cooking to ensure safety standards and avoid liabilities?
+        1. Two supervisors: one cooking instructor and one assistant who can ask anyone to leave at any time for irresponsible behavior.
+        2. Liability waivers, which must be signed by the customer before using the kitchen and Allergy information will be made known to the instructor and assistant.
+        3. Separate food into three fridges and a pantry: vegetables, meats, and general storage.
+
 
 Business Structure and Consumer Cycle
     As a small operation, at least four people are needed:
@@ -59,8 +68,22 @@ Business Structure and Consumer Cycle
             1. A cooking instructor/kitchen supervisor.
             2. A sociologist that works as a cooking assistant/apprentice and performs basic maintenance, cleaning, and helps with planning.
                 The expectation is that someday the sociologist/psychologist will learn from the cooking instructor to someday replace them.
-            3. A greeter who also acts as security.
-    On a small scale, the business would operate as a for-profit co-op.
-    Because we're attempting to solve a public health issue, there is an alternative for the operation to work as a non-profit. It all depends on who wants to give me most money: the state or venture capitalists.
+            3. A greeter who also acts as security and moderator for games, PC and console usage.
+    Type of business
+        1. On a small scale, the business would operate as a for-profit co-op.
+        2. Because we're attempting to solve a public health issue, there is an alternative for the operation to work as a non-profit. It all depends on who wants to give me most money: the state or venture capitalists.
         - Give example of the social kitchen in new york being a non-profit.
-    
+    Consumer cycle
+        1. Looking for people.
+        2. Relationships with acquaintances mature into friendships.
+        3. Friends engage in activities not related to our business.
+        4. Maturation of relationships:
+            CASE I: Friends may exclusively remain friends for life OR
+            CASE II: Relationships mature to such a point that they seek meeting new people and forming new friendships.
+                A. Complete maturation of relationships includes the following:
+                    - Breakups
+                    - Mutual understandings
+                    - Relationships mature when the lesson is learned: when the personal narrative that began with meeting someone ends because there is either nothing else to learn from them, or people grow in different ways that cause the relationship to lose its value.
+                        - Either stagnation or diminishing returns
+        5. Looking for people.
+
