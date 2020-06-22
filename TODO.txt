@@ -71,7 +71,7 @@ Finances
                     + majority of college graduates are women
                     + appealing to women is going to be a huge industry
                 + the inclination of young people towards being more appropriate to each other
-        - Practical challenges
+        + Practical challenges
             + Ensuring that friend groups can safely break up to meet new people and regroup later
                 - Random invite nights and randomized groups
                 - Clear timing expectations where guided activities are synced up to end at the same time
@@ -95,6 +95,7 @@ Finances
         - elevator pitch
         - long-form pitch
     - projected finances
+        # Assigned on 6/21/2020
         - create an expense report on overhead cost
         - create an expense report for gross income and profit over time
         - have a specific square footage in mind
