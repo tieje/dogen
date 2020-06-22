@@ -94,8 +94,15 @@ Finances
     - work on your pitch
         - elevator pitch
         - long-form pitch
+
+
+
+        
     - projected finances
         # Assigned on 6/21/2020
+
+
+
         - create an expense report on overhead cost
         - create an expense report for gross income and profit over time
         - have a specific square footage in mind
