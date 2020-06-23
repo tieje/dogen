@@ -37,6 +37,8 @@ Practical Challenges
             a. The dance studio could be converted into a night-time dance club with a DJ.
             b. Before dancing, we could tell the customer about the other services that we offer.
         2. Offer Cooking classes to target specific groups of people:
+            Instead of hiring a full-time cooking instructor, hire a local chef from a local restaurant or catering business for a night, pay them 1/3 of the gross profit, 1/3 will go to food, 1/3 goes to the house.
+                - Win-win: they get paid and get free marketing, we get paid for offering a space and a non-partisan outlet for businesses and chefs to compete
             Singles cooking nights
             Couples cooking nights
             Random-invite/friend cooking nights for meeting new people with friends:
