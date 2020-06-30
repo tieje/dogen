@@ -1,0 +1,215 @@
+/*Expand All and Collapse All Script*/
+$(document).ready(function() {
+   $($(".xn-chron")[0]).css("font-weight", "bold");
+   $($(".xn-location")[0]).css("font-weight", "bold");
+    // hideActivePageListItem();
+    if ($(".breadcrumb-list").length != 0 && $('#pagename').text().match("^newsroom")) {
+        $('ul.breadcrumb-list').find('li a').first().text("");
+    }
+    $('.exp-coll-wrapper > a').on('click', function(e) {
+        e.preventDefault();
+        if ($(this).hasClass("exp-all")) {
+            $('.accordion-section .toggle-head').addClass('active');
+            $('.accordion-section .toggle-head .caret').addClass('dwn');
+            $('.accordion-section .collapse').addClass('open').removeClass('collapse');
+        } else {
+            $('.accordion-section .toggle-head').removeClass('active');
+            $('.accordion-section .toggle-head .caret').removeClass('dwn');
+            $('.accordion-section .open').addClass('collapse').removeClass('open');
+        }
+    });
+    // Video Page Wrap function
+    /*if($('object').length > 0 && $('#pagename').text() != "newsroom/knowledge-center/dental-study-2014") {
+        $('object').each(function(){
+            if(!$(this).parent('div').hasClass('video-container')) {
+                $(this).wrap('<div class="video-container"></div>');
+            }
+        });
+    }
+    if($('#pagename').text() == "newsroom/knowledge-center/dental-study-2014") {
+        $('#limelight_player_875642#limelight_player_875642 .limelight-player-viewport').css('position','static');
+    }*/
+    // Banner Description Viewable in mobile version
+    if ($('#pagename').text() == "newsroom/index") {
+        $('.flexslider-carousel .flex-caption').removeClass('hidden-xs').show();
+    }
+    //youtube video resize
+    if ($('#pagename').text() == "newsroom/knowledge-center/cigna-foundation") {
+        $('iframe').css({
+            "height": "319px",
+            "width": "480px"
+        });
+    }
+    if (($('#pagename').text().indexOf("newsroom/newsreleases/") != -1) || ($('#pagename').text().indexOf("newsroom/news-releases/") != -1)) {
+        /*var pageTitleTemp = $(document).attr('title'),
+        isPresent = false,
+        i = 0;
+        $(".RelatedArticleItems li").each(function() {
+            if((pageTitleTemp.indexOf($(this).text()) > -1)|| $(this).text() == "" || i >= 5)
+                $(this).remove();
+            else
+                i++;
+        });
+        if(!isPresent) {
+            $(".RelatedArticleItems li:last-child").remove();
+        }*/
+        var thisPgUrl = window.location.href.split(".com")[1];
+        var i = 0;
+        thisPgUrl = thisPgUrl.split('?')[0];
+        $(".RelatedArticleItems a").each(function() {
+			if ($(this).attr('href') != undefined) {
+				var chkUrl = $(this).attr('href').replace('.html', '');
+				chkUrl = chkUrl.substring(chkUrl.indexOf(".com/") + 4, chkUrl.length);
+				if (thisPgUrl == chkUrl || $(this).text() == "" || i >= 5)
+					$(this).closest('li').remove();
+				else
+					i++;
+			}
+		});
+        var rightRailObj = $('#right-rail-row').html();
+        $('#right-rail-row').remove();
+        $('#container-row').after('<div id="right-rail-row" class="ls-row col-xs-12 col-sm-12 col-md-3">' + rightRailObj + '</div>');
+        $('a[rel="nofollow"]').each(function() {
+            if ($(this).has('img').length == 1 && $('img', this).attr('name') == "tools_pdf") {
+                $(this).attr('target', '_blank');
+                return false;
+            }
+        });
+    }
+    // Newsroom Search functionality
+    $('form[name="rail_search"]').on("submit", function() {
+        var searchStr = $('input[name="keywords"]', this).val().replace(" ", "+");
+        if (searchStr != "") {
+            window.location.href = "/newsroom/search.page?query=" + searchStr + "&tab=CIGNADOTCOM_WEBSITE_NEWSROOM&btnSubmit=";
+        }
+        return false;
+    });
+    /*if($('#pagename').text() == "newsroom/search") {
+        $('#searchForm').on("submit", function(e) {
+            e.preventDefault();
+            var searchStr = $('#searchForm input[name="query"]').val().replace(" ", "+");
+            if(searchStr != "") {
+                var queryString = location.search.replace( '?', '' ).split( '&' );
+                var queryObj = "";
+                for ( var i=0; i<queryString.length; i++ ) {
+                    var name = queryString[i].split('=')[0];
+                    var value = queryString[i].split('=')[1];
+                    if(name == "query")
+                        value = searchStr;
+                    queryObj += (name+"="+value);
+                    if(i < (queryString.length - 1))
+                        queryObj += "&";
+                }
+                var searchUrl = window.location.href.split("?")[0];
+                console.log(searchUrl + "?" + queryObj)
+                //window.location.href = searchUrl + "?" + queryObj;
+            }
+            return false;
+        });
+    }*/
+    /*$('.register-me-btn').on('click', function(){
+        alert("click")
+		var txtEmail = $('.email').val();
+		if(txtEmail == ''){
+			alert('Email addrss cannot be empty');
+		}else{
+			if (!ValidateEmail(txtEmail)) {
+				alert("Invalid email address.");
+			}
+			else {
+				$('#subscription').submit();
+			}
+		}
+    });*/
+    if ($('#pagename').text() == "newsroom/register") {
+        $('.ls-area-body form#subscription').on('submit', function() {
+            var emailVal = $('form#subscription input[name="email"]').val();
+            var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+            if ($.trim(emailVal) == "") {
+                alert('Email is a required field');
+                return false;
+            } else if (!reg.test(emailVal)) {
+                alert('Enter a valid Email');
+                return false;
+            } else {
+                return true;
+            }
+            return false;
+        });
+    }
+    if ($('#pagename').text() == "newsroom/unsubscribe") {
+        $('.ls-area-body form[name="unsubscribefrm"]').on('submit', function() {
+            var alertMsg = "";
+            var isValid = true;
+            if (!$('#no_email').is(':checked')) {
+                isValid = false;
+                alertMsg += "Select the checkbox if you wish to unsubscribe.\n";
+            }
+            if ($.trim($('#unsub_reason').val()) == "") {
+                isValid = false;
+                alertMsg += "Fill the reason for unsubscribing.\n";
+            }
+            return false;
+        });
+    }
+    $('#Submit').on('click', function() {
+        var url = $('#archiveYear').val();
+        if (url)
+            window.location.href = url;
+        return false;
+    });
+    $('#getArchives').on('click', function() {
+        var url = $('#archiveYear').val();
+        if (url)
+            window.location.href = "/newsroom/archive.page?&archiveYear=" + url;
+        return false;
+    });
+});
+$(window).load(function() {
+    if ($('#pagename').text().match("^newsroom")) {
+        $('ul.topnav li').each(function() {
+            $(this).attr("class", "");
+        });
+    }
+    if ($('#pagename').text() == "newsroom/knowledge-center/dental-study-2014") {
+        $('#limelight_player_875642#limelight_player_875642 .limelight-player-viewport').css('position', 'static');
+    }
+});
+
+function fn_archivesearch() {
+    var formObj = document.forms["rail_archives"];
+    alert("Submitting form");
+    formObj.submit();
+    //document.frm.submit();
+}
+
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+function ValidateEmail(email) {
+    var expr = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+    return expr.test(email);
+}
+/*function hideActivePageListItem(){
+                var PageTitle = $(document).attr('title'),
+                                ind = PageTitle.indexOf("|")+1,
+                                PageTitleFormat = PageTitle.substring(ind);
+
+                $(".RelatedArticleItems").each(function() {
+                                $(this).find("li > a").click(function() {
+                                                if (PageTitle.indexOf($(this).text()) > -1) {
+                                                                $(this).hide();
+                                                                $('.RelatedArticleItems li').not(this).show();
+                                                }
+                                });
+                });
+
+                $(".RelatedArticleItems li a").click(function() {
+                                if (PageTitle.indexOf($(this).text()) > -1) {
+                                                $(this).hide();
+                                                $('.RelatedArticleItems li').not(this).show();
+                                }
+                });
+}*/
