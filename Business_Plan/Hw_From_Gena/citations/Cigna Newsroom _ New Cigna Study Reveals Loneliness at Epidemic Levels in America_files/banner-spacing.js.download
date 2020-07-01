@@ -1,0 +1,39 @@
+$(document).ready(function() {
+    if ($(window).width() >= 700) {
+        if ($(".hero-banner").length == 1) {
+        	if ($(".hero-banner").parents('.ls-cmp-wrap').next().length === 0) { return false; }
+            var herolength = $(".hero-banner").length; //check whether hero-banner is present or not
+            var nextdiv = $(".hero-banner").parent().parent().parent().parent().next(); /*find the main parent class of hero-banner class*/
+            var nextdivname = nextdiv.attr('id');
+            var nextdivname1 = "#" + nextdivname;
+            var nextdivchildname = $("#" + nextdivname).children().attr('id');
+            var nextdivchildname1 = "#" + nextdivchildname;
+            var nextdivchildnamechild = $("#" + nextdivchildname).children().attr('class').split(' ')[0];
+            var nextdivchildnamechild1 = "." + nextdivchildnamechild;
+            var finalname = nextdivchildname1 + " " + nextdivchildnamechild1;
+            $(finalname).css({ "position": "relative", "top": "-30px", "margin-top": "0px", "margin-bottom": "-20px" });
+        } else if ($(".ifpBanner").length == 1) {
+            var ifplength = $(".ifpBanner").length; //check whether hero-banner is present or not
+            var nextdiv5 = $(".ifpBanner").parent().parent().parent().parent().next(); //find the main parent class of ifpbanner class
+            var nextdivname5 = nextdiv5.attr('id');
+            var nextdivname6 = "#" + nextdivname5;
+            var nextdivchildname5 = $("#" + nextdivname5).children().attr('id');
+            var nextdivchildname6 = "#" + nextdivchildname5;
+            var nextdivchildnamechild5 = $("#" + nextdivchildname5).children().attr('class').split(' ')[0];
+            var nextdivchildnamechild6 = "." + nextdivchildnamechild5;
+            var finalname1 = nextdivchildname6 + " " + nextdivchildnamechild6;
+            $(finalname1).css({ "position": "relative", "top": "-30px", "margin-top": "0px", "margin-bottom": "-20px" });
+        } else if ($(".hero-banner").length == 0 || $(".ifpBanner").length == 0) {
+            if ($("#max-body-content-section").children().children().children().children().children().children().attr('class') != undefined) {
+                var herocomp = $("#max-body-content-section").children().children().children().children().children().children().attr('class').split(' ')[0];
+                var heroccomponent = "." + herocomp;
+                $(heroccomponent).css("margin-bottom", "20px");
+            }
+        }
+    }
+});
+$(window).resize(function() {
+    if ($(window).width() < 700) {
+        var nextdiv = $(".hero-banner").parent().parent().parent().parent().next().children().children().removeAttr("style"); /*find the main parent class of hero-banner class*/
+    }
+});

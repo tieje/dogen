@@ -1,0 +1,31 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  function initGoogleAnalytics() {
+  const coreCignaGAid = 'UA-25301774-1';
+  
+  // Global site tag (gtag.js)
+  var dcJS = document.createElement('SCRIPT');
+  var done = false;
+
+  dcJS.setAttribute('src', '//www.googletagmanager.com/gtag/js?id='+ coreCignaGAid);
+  dcJS.setAttribute('type','text/javascript');
+
+  document.body.appendChild(dcJS);
+  dcJS.onload = dcJS.onreadystatechange = function () {
+    if(!done && (!this.readyState || this.readyState === "loaded" || this.readyState === "complete")) {
+      done = true;
+      callback();
+    }
+  };
+  function callback(){
+    if(done){
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', coreCignaGAid);
+    }
+  }
+  // End AdWords
+}
+initGoogleAnalytics();
+
+});

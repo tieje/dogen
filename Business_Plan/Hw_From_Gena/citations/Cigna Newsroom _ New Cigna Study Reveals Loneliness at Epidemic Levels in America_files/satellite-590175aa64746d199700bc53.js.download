@@ -1,0 +1,101 @@
+//function for getting query string value from a named pair
+var getQueryString = function (field, url) {
+  var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+  var string = reg.exec(url);
+  return string ? string[1] : null;
+};
+
+var getClickTracking = function (url) {
+  znav = getQueryString('WT.z_nav',url);
+  if (znav) {
+    znav = znav.replace(/%25252525/g,"%");
+    znav = znav.replace(/%252525/g,"%");
+    znav = znav.replace(/%2525/g,"%");
+    znav = znav.replace(/%25/g,"%");
+    znav = decodeURIComponent(znav);
+    var parts = znav.split(';');
+    if (!parts[0]) {
+      parts[0] = 'Not Set';
+    }
+    if (parts[1]) {
+      if (parts[1].toLowerCase() == 'top nav') {
+        parts[1] = 'Top-Nav';
+      }
+    }
+    else {
+      parts[1] = 'Not Set';
+    }
+    if (parts[2]) {
+      if (parts[2].substr(-1) == '*') {
+        parts[2] = parts[2].substr(0, parts[2].length - 1);
+      }
+      else if (parts[2].substr(-1) == '®') {
+        parts[2] = parts[2].substr(0, parts[2].length - 1);
+      }
+      else if (parts[2].substr(-2) == ' ®') {
+        parts[2] = parts[2].substr(0, parts[2].length - 2);
+      }
+      if (parts[2].toLowerCase() == 'contact-us') {
+        parts[2] = 'Contact Us';
+      }
+      else if (parts[2].toLowerCase() == 'about-cigna') {
+        parts[2] = 'About Cigna';
+      }
+      else if (parts[2].toLowerCase() == 'about us') {
+        parts[2] = 'About Cigna';
+      }
+      else if (parts[2].toLowerCase() == 'about-us') {
+        parts[2] = 'About Cigna';
+      }
+      else if (parts[2].toLowerCase() == 'i want to:') {
+        parts[2] = 'IWantTo';
+      }
+      else if (parts[2].toLowerCase() == 'get your free quote here') {
+        parts[2] = 'Get Free Quote';
+      }
+      else if (parts[2].toLowerCase() == 'get a free quote') {
+        parts[2] = 'Get Free Quote';
+      }
+      else if (parts[2].toLowerCase() == 'get a quote') {
+        parts[2] = 'Get Free Quote';
+      }
+      else if (parts[2].toLowerCase() == 'find my prescription drug') {
+        parts[2] = 'Find Prescription Drug';
+      }
+      else if (parts[2].toLowerCase() == 'find a prescription') {
+        parts[2] = 'Find Prescription Drug';
+      }
+      else if (parts[2].toLowerCase() == 'find your prescription') {
+        parts[2] = 'Find Prescription Drug';
+      }
+      else if (parts[2] == 'Find%C2%A0a Doctor') {
+        parts[2] = 'Find a Doctor';
+      }
+      else if (parts[2].toLowerCase() == 'find your doctor') {
+        parts[2] = 'Find a Doctor';
+      }
+      else if (parts[2].toLowerCase() == 'find yourdoctor') {
+        parts[2] = 'Find a Doctor';
+      }
+    }
+    else {
+      parts[2] = 'Not Set';
+    }
+    if (parts[3]) {
+      if (parts[3].substr(-1) == '*') {
+        parts[3] = parts[3].substr(0, parts[3].length - 1);
+      }
+      else if (parts[3].substr(-1) == '®') {
+        parts[3] = parts[3].substr(0, parts[3].length - 1);
+      }
+      else if (parts[3].substr(-2) == ' ®') {
+        parts[3] = parts[3].substr(0, parts[3].length - 2);
+      }
+    }
+    return parts.join('|');
+    //return decodeURIComponent(znav).replace(/;/g,"|");
+  }
+  else {
+    return "";
+  }
+};
