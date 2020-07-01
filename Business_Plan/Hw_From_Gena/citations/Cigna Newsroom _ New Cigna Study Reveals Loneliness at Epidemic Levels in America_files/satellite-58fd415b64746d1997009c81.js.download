@@ -1,7 +1,0 @@
-_satellite.pushAsyncScript(function(event, target, $variables){
-  var script = document.createElement("script");
-//script.innerHTML = "var digitalData = window.digitalData || {};digitalData.page = digitalData.page || {};digitalData.page.pageInfo = digitalData.page.pageInfo || {};digitalData.page.pageInfo.pageName = '';digitalData.page.pageInfo.error = '';var userLang = navigator.language || navigator.userLanguage;digitalData.page.pageInfo.language = userLang;digitalData.page.pageInfo.referringURL = '';var o = 'landscape';if(window.innerHeight > window.innerWidth){o = 'portrait';}digitalData.page.pageInfo.orientation = o;";
-script.innerHTML = 'var digitalData = JSON.parse(\'{"page":{"pageInfo":{"pageName":"","articlename":"","language":"","orientation":""},"category":{"primaryCategory":""}},"actions":{"item":"","value":""},"error":""}\');digitalData.page.pageInfo.pageName = "";digitalData.page.category.primaryCategory = "";var userLang = navigator.language || navigator.userLanguage;digitalData.page.pageInfo.language = userLang;var o = "landscape";if(window.innerHeight > window.innerWidth){o = "portrait";}digitalData.page.pageInfo.orientation = o;';
-//document.head.appendChild(script);
-document.getElementsByTagName('head')[0].appendChild(script);
-});
