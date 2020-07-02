@@ -1,9 +1,0 @@
-_satellite.pushAsyncScript(function(event, target, $variables){
-  (function() {
-  var tl = document.createElement("script");
-  tl.async = true;
-  tl.src = "/static/www-cigna-com/v1/js/TealeafSDK.js"
-  var tlf = document.getElementsByTagName("script")[0];
-  tlf.parentNode.insertBefore(tl, tlf)
-})();
-});
