@@ -1,0 +1,17 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  //send names of all AJAX events to _satellite.notify() 
+//Replace commented out code to call direct calls based on these AJAX success events
+/* Ajax Detection on Staging Library Only */
+if (typeof jQuery != "undefined") {
+  if(typeof localStorage == "object" && localStorage.sdsat_stagingLibrary == "true"){
+    jQuery( document ).ready(function(){
+      jQuery( document ).ajaxComplete(function( event, xhr, settings ) {
+        _satellite.notify('Staging: AJAX Detected: ' + settings.url);
+
+        var myev = new CustomEvent("myCustomDelayedPageLoadEvent"); 
+				document.getElementById("content-section").dispatchEvent(myev);
+      });
+    });
+  }
+}
+});

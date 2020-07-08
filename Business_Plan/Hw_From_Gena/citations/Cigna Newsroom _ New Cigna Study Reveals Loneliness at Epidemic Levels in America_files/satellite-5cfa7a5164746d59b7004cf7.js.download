@@ -1,0 +1,15 @@
+_satellite.pushAsyncScript(function(event, target, $variables){
+  var cignaMicrosite = ['dental-dna.cigna.com', 'stateofct.cigna.com', 'cosd.cigna.com'].some(function (e) {
+  return location.href.indexOf(e) >= 0;
+});
+
+if (cignaMicrosite) {
+  var css = '#oo_container { display: none !important; }',
+      head = document.head,
+      style = document.createElement('style');
+
+  head.appendChild(style);
+  style.type = 'text/css';
+  style.appendChild(document.createTextNode(css));
+}
+});
