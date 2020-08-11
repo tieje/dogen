@@ -1,0 +1,11 @@
+8/11/2020
+
+I'll be reading the ycombinator library to figure out what to do next.
+
+https://www.ycombinator.com/library?id=true
+
+Steps:
+1. Copy and paste the URL and title.
+2. Write a beginning, middle, end summary. Can be three sentences.
+3. Write what you've learned.
+
